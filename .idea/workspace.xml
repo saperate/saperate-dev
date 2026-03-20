@@ -4,12 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="" />
+    <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Counter.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo/playwright/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo/playwright/page.svelte.e2e.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sverdle/+page.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sverdle/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sverdle/game.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sverdle/how-to-play/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sverdle/how-to-play/+page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sverdle/words.server.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "saperate"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/saperate/saperate-dev.git",
+    "accountId": "1d2bbbe9-84c5-465d-9ba4-f8c58a659d44"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 8
@@ -22,14 +55,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "H:\\Projects\\saperate-dev\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773998454668</updated>
-      <workItem from="1773998460423" duration="761000" />
+      <workItem from="1773998460423" duration="1689000" />
     </task>
     <servers />
   </component>
