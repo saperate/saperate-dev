@@ -3,6 +3,10 @@
 	import './layout.css';
 
 	let { children } = $props();
+	import { dev } from '$app/environment';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 </script>
 
 <div class="app">
@@ -14,7 +18,7 @@
 
 	<footer>
 		<p>
-			All rights reserved - @ {new Date().getFullYear()} Saperate
+			All rights reserved - @ 	{new Date().getFullYear()} Saperate
 		</p>
 	</footer>
 </div>
