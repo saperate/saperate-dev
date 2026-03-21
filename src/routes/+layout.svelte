@@ -18,7 +18,7 @@
 
 	<footer>
 		<p>
-			All rights reserved - @ 	{new Date().getFullYear()} Saperate
+			All rights reserved - @ {new Date().getFullYear()} Saperate
 		</p>
 	</footer>
 </div>

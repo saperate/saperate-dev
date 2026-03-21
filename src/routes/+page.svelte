@@ -1,5 +1,6 @@
 <script lang="ts">
 	import HankoAuth from "../components/HankoAuth.svelte";
+	import LogoutButton from "../components/LogoutButton.svelte";
 </script>
 
 <svelte:head>
@@ -8,6 +9,7 @@
 </svelte:head>
 THIS IS AUTH
 <HankoAuth/>
+<LogoutButton/>
 
 <style>
 	section {
