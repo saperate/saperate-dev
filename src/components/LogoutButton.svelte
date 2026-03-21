@@ -1,14 +1,12 @@
 ﻿<script>
-    import { Hanko } from "@teamhanko/hanko-elements";
+    import {Hanko, register} from "@teamhanko/hanko-elements";
     import { navigate } from 'svelte-routing';
-
-    const hankoApi = import.meta.env.VITE_HANKO_API_URL;
-
-    const hanko = new Hanko(hankoApi);
-    const logout = () => {
-        hanko.logout().catch((error) => {
-            console.log("Error during logging out : " + error);
-        });
+    
+    const logout = async () => {
+        const {hanko} = await register(
+            "https://saperate.dev"
+        );
+        hanko.logout()
         navigate("/");
     };
 </script>
