@@ -6,13 +6,11 @@
     const hankoApi = import.meta.env.VITE_HANKO_API_URL;
     const redirectAfterLogin = () => {
         //User logged in
-        navigate("/dashboard");//url to navigate to once logged in
+        navigate("/");//url to navigate to once logged in
     };
 
     onMount(async () => {
         register(hankoApi).catch((error) => {
-            console.log("aaa")
-            console.log(error)
             // handle error
         });
     });
