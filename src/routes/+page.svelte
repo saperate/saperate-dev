@@ -1,4 +1,13 @@
 <script lang="ts">
+	import {register, type User} from "@teamhanko/hanko-elements";
+	
+	let user : User | undefined = undefined;
+	register("https://saperate.dev").then((hankoPromiseValue) =>
+			hankoPromiseValue.hanko.getCurrentUser().then(
+					(userPromiseValue) => user = userPromiseValue
+			)
+	);
+
 </script>
 
 <svelte:head>
@@ -6,7 +15,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 THIS IS MAIN
-
+{#if user !== undefined}
+Hello, ${user.name}
+{/if}
 
 <style>
 	section {

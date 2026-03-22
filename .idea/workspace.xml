@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/auth/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,7 @@
       <workItem from="1773998460423" duration="3683000" />
       <workItem from="1774055475172" duration="5460000" />
       <workItem from="1774168544627" duration="2348000" />
-      <workItem from="1774174937421" duration="3333000" />
+      <workItem from="1774174937421" duration="4232000" />
     </task>
     <servers />
   </component>
