@@ -1,12 +1,14 @@
 <script lang="ts">
+	import HankoAuth from "../components/HankoAuth.svelte";
+	import LogoutButton from "../components/LogoutButton.svelte";
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-THIS IS MAIN
-
+THIS IS AUTH
+<HankoAuth/>
 
 <style>
 	section {
