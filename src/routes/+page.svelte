@@ -1,12 +1,10 @@
 <script lang="ts">
 	import {register, type User} from "@teamhanko/hanko-elements";
 	
-	let user : User | undefined = undefined;
-	register("https://saperate.dev").then((hankoPromiseValue) =>
-			hankoPromiseValue.hanko.getCurrentUser().then(
-					(userPromiseValue) => user = userPromiseValue
-			)
-	);
+	const getUser = async () => {
+		let hanko = (await register("https://saperate.dev")).hanko;
+		return await hanko.getCurrentUser();
+	}
 
 </script>
 
@@ -15,9 +13,17 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 THIS IS MAIN
-{#if user !== undefined}
-Hello, ${user.name}
-{/if}
+
+{#await getUser()}
+	<p>Loading stuff</p>
+{:then user}
+	{#if user !== undefined}
+		Hello, ${user.name}
+	{/if}
+{:catch error}
+	<p>Error: {error.message}</p>
+{/await}
+
 
 <style>
 	section {
