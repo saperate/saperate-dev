@@ -16,7 +16,7 @@
 
     onMount(async () => {
         if(!await validateSession()){
-            goto("/");
+            goto("/auth");
         }
     })
 </script>

@@ -16,4 +16,6 @@
     });
 </script>
 
+
 <hanko-auth on:onSessionCreated={redirectAfterLogin} />
+

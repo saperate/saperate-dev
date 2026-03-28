@@ -1,6 +1,7 @@
 ﻿<script>
     import {register} from "@teamhanko/hanko-elements";
     import {goto} from "$app/navigation";
+    import ProtectedRoute from "../ProtectedRoute.svelte";
     
     const logout = async () => {
         const {hanko} = await register(
@@ -11,6 +12,7 @@
     };
 </script>
 
+<ProtectedRoute/>
 <div class="main_container">
     <div class="sidebar">
         <button class="sidebar_element" on:click={() => {goto("/dashboard")}}>
