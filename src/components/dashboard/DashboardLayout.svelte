@@ -14,10 +14,10 @@
 <div class="main_container">
     <div class="sidebar">
         <button class="sidebar_element" on:click={() => {goto("/dashboard")}}>
-            Account settings <!-- This is Hanko settings -->
-        </button>
-        <button class="sidebar_element" on:click={() => {goto("/dashboard/profile")}}>
             Profile settings <!-- Stuff we see on the website (visibility, pfp, bio, ect) -->
+        </button>
+        <button class="sidebar_element" on:click={() => {goto("/dashboard/account")}}>
+            Account settings <!-- This is Hanko settings -->
         </button>
         <button class="sidebar_element logout_button" on:click={logout}>
             Log-out

@@ -1,7 +1,6 @@
 ﻿<script>
     import { onMount } from "svelte";
     import { register } from "@teamhanko/hanko-elements";
-    import {goto} from "$app/navigation";
 
     const hankoApi = import.meta.env.VITE_HANKO_API_URL;
     const redirectAfterLogin = () => {
@@ -10,9 +9,7 @@
     };
 
     onMount(async () => {
-        register(hankoApi).catch((error) => {
-            // handle error
-        });
+        await register(hankoApi);
     });
 </script>
 

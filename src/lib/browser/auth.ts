@@ -8,6 +8,16 @@ export async function getHanko(){
     return new Hanko(hankoApi)
 }
 
+
+export async function validateSession() {
+    try {
+        const hanko = await getHanko();
+        return (await hanko.validateSession()).is_valid;
+    } catch (error) {
+        return false;
+    }
+}
+
 export async function getUserOrUndefined() {
     try {
         const hanko = new Hanko(hankoApi);
