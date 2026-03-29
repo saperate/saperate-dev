@@ -9,5 +9,4 @@
     and other stuff we might want to add to our profile
     
     We could allow people to put image tags where they want to in the bio, along with line breaks
-    
 </DashboardLayout>

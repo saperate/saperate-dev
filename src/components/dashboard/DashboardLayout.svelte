@@ -12,21 +12,25 @@
 
 <ProtectedRoute/>
 <div class="main_container">
-    <div class="sidebar">
+    <aside class="sidebar">
         <button class="sidebar_element" on:click={() => {goto("/dashboard")}}>
-            Profile settings <!-- Stuff we see on the website (visibility, pfp, bio, ect) -->
+            Profile Info<!-- Stuff we see on the website (visibility, pfp, bio, ect) -->
+        </button>
+        <button class="sidebar_element" on:click={() => {goto("/dashboard/customize")}}>
+            Customisation <!-- Change how the website looks -->
+        </button>
+        <button class="sidebar_element" on:click={() => {goto("/dashboard/privacy")}}>
+            Privacy Settings
         </button>
         <button class="sidebar_element" on:click={() => {goto("/dashboard/account")}}>
-            Account settings <!-- This is Hanko settings -->
+            Account Settings
         </button>
         <button class="sidebar_element logout_button" on:click={logout}>
             Log-out
         </button>
-    </div>
-    <div>
+    </aside>
+    <div style="width: 60%; background-color: white">
         <slot/>
-    </div>
-    <div class="sidebar" style="background-color: transparent">
     </div>
 </div>
 
@@ -39,7 +43,8 @@
 
     .sidebar {
         width: 18%;
-        margin: 0 5%;
+        height: fit-content;
+        margin: 0 2%;
         background-color: var(--background-color, white);
         display: flex;
         flex-direction: column;
