@@ -11,3 +11,5 @@ reviews have a copiable link using review slugs "review/[UUID]", which will eith
 or make a minipage to show the review
 
 if clicked within the website, the minipage should appear on top of the window, as opposed to opening a new window
+
+reviews will have a section showing what they are reviewing.
