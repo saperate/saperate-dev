@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/images/account-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/images/account-filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/images/logo-transparent.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Header.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/layout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,10 @@
       <workItem from="1774744282470" duration="2405000" />
       <workItem from="1774748672257" duration="12611000" />
       <workItem from="1774775171142" duration="7720000" />
-      <workItem from="1774856916051" duration="4064000" />
+      <workItem from="1774856916051" duration="4198000" />
+      <workItem from="1774869072696" duration="607000" />
+      <workItem from="1776498762285" duration="4325000" />
+      <workItem from="1776600820501" duration="1540000" />
     </task>
     <servers />
   </component>
