@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/images/account-empty.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/images/account-filled.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/images/logo-transparent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/commissions/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/images/account-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/images/account-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/images/account-filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/images/account-filled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/images/logo-transparent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/images/logo-transparent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/+page.svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/media/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/art/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +51,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$APPLICATION_HOME_DIR$/lib/app.jar!/resources/html5-schema/html5/structural.rnc" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -113,7 +118,11 @@
       <workItem from="1774856916051" duration="4198000" />
       <workItem from="1774869072696" duration="607000" />
       <workItem from="1776498762285" duration="4325000" />
-      <workItem from="1776600820501" duration="1540000" />
+      <workItem from="1776600820501" duration="1687000" />
+      <workItem from="1776664270936" duration="181000" />
+      <workItem from="1776667767247" duration="2974000" />
+      <workItem from="1776671379437" duration="3238000" />
+      <workItem from="1777621103608" duration="7400000" />
     </task>
     <servers />
   </component>

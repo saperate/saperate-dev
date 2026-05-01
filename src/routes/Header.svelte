@@ -28,11 +28,11 @@
     </div>
 
     <nav>
-        <a class={"nav_element"} href="/"> Home </a>
-        <a class={"nav_element"} href="/projects"> Projects </a>
-        <a class={"nav_element"} href="/media"> Media </a>
-        <a class={"nav_element"} href="/blog"> Blog </a>
-        <a class={"nav_element"} href="/reviews"> Reviews </a>
+        <a class="nav_element" href="/"> Home </a>
+        <a class="nav_element" href="/projects"> Projects </a>
+        <a class="nav_element" href="/art"> Art </a>
+        <a class="nav_element" href="/commissions"> Commissions </a>
+        <a class="nav_element" href="/reviews"> Reviews </a>
     </nav>
 
     <div class="corner">
@@ -50,10 +50,7 @@
         background-color: var(--color-bg-2);
         border-bottom: var(--color-theme-1);
         border-bottom-style: solid;
-    }
-    
-    .nav_element{
-        
+        border-bottom-width: 5px;
     }
 
     .corner {
@@ -73,7 +70,7 @@
         height: 100%;
         align-items: center;
         padding: 0 0.5rem;
-        color: var(--color-text);
+        color: var(--color-text-alt);
         font-weight: 700;
         font-size: 0.8rem;
         letter-spacing: 0.1em;
@@ -82,7 +79,7 @@
     }
 
     a:hover {
-        color: var(--color-theme-1);
+        color: var(--color-theme-2);
     }
     
     .logo_container{

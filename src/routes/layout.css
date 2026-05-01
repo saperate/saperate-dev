@@ -6,13 +6,14 @@
 		'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	
-	--color-bg-0: rgb(35, 35, 35);
-	--color-bg-1: hsl(0, 0%, 10%);
-	--color-bg-2: hsl(0, 0%, 23%);
+	--color-bg-0: #252126;
+	--color-bg-1: rgba(163, 120, 10, 1);
+	--color-bg-2: #c98733;
 	
-	--color-theme-1: hsl(45.1, 100%, 61.4%);
-	--color-theme-2: #ec5f07;
-	--color-text: rgb(255, 255, 255);
+	--color-theme-1: #ffcb00;
+	--color-theme-2: #ecab07;
+	--color-text: #fff2db;
+	--color-text-alt: #fffbf4;
 	
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -24,11 +25,10 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	background-color: var(--color-bg-1);
+	background-color: var(--color-bg-0);
 	background-size: 100vw 100vh;
-	background-image:
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 50%);
 	color: var(--color-text);
+	background-image: linear-gradient(150grad,#4a2915 0%, rgb(179, 140, 99) 100%);
 }
 
 h1,
